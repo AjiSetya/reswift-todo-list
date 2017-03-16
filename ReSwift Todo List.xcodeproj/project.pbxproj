@@ -15,7 +15,6 @@
 		33DCCE131E78313D00192D2B /* AppReducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DCCE121E78313D00192D2B /* AppReducer.swift */; };
 		33DCCE151E78315500192D2B /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DCCE141E78315500192D2B /* AppState.swift */; };
 		33DCCE181E78317E00192D2B /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DCCE171E78317E00192D2B /* Task.swift */; };
-		33DCCE1A1E7831FD00192D2B /* RemoveTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DCCE191E7831FD00192D2B /* RemoveTask.swift */; };
 		33DCCE1E1E78343700192D2B /* AddTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DCCE1D1E78343700192D2B /* AddTask.swift */; };
 		33DCCE211E7838B900192D2B /* LoggingMiddleware.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33DCCE201E7838B900192D2B /* LoggingMiddleware.swift */; };
 		41D1249F9415C0961A0AFDA7 /* Pods_ReSwift_Todo_List.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 298009CB963936FC80F7EB81 /* Pods_ReSwift_Todo_List.framework */; };
@@ -33,7 +32,6 @@
 		33DCCE121E78313D00192D2B /* AppReducer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppReducer.swift; sourceTree = "<group>"; };
 		33DCCE141E78315500192D2B /* AppState.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		33DCCE171E78317E00192D2B /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		33DCCE191E7831FD00192D2B /* RemoveTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoveTask.swift; sourceTree = "<group>"; };
 		33DCCE1D1E78343700192D2B /* AddTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTask.swift; sourceTree = "<group>"; };
 		33DCCE201E7838B900192D2B /* LoggingMiddleware.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoggingMiddleware.swift; sourceTree = "<group>"; };
 		70F42BBD09E10A63E505E79D /* Pods-ReSwift Todo List.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReSwift Todo List.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReSwift Todo List/Pods-ReSwift Todo List.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,7 +121,6 @@
 		33DCCE101E78313500192D2B /* Actions */ = {
 			isa = PBXGroup;
 			children = (
-				33DCCE191E7831FD00192D2B /* RemoveTask.swift */,
 				33DCCE1D1E78343700192D2B /* AddTask.swift */,
 			);
 			path = Actions;
@@ -296,7 +293,6 @@
 			files = (
 				33DCCE131E78313D00192D2B /* AppReducer.swift in Sources */,
 				33DCCE0E1E782DD200192D2B /* ListViewController.swift in Sources */,
-				33DCCE1A1E7831FD00192D2B /* RemoveTask.swift in Sources */,
 				33DCCE181E78317E00192D2B /* Task.swift in Sources */,
 				33DCCDF91E782CDB00192D2B /* AppDelegate.swift in Sources */,
 				33DCCE211E7838B900192D2B /* LoggingMiddleware.swift in Sources */,

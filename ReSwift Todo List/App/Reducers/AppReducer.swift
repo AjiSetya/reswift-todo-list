@@ -1,4 +1,3 @@
-
 //
 //  AppReducer.swift
 //  ReSwift Todo List
@@ -29,20 +28,15 @@ struct AppReducer: Reducer {
             
             // 2. Append newly created task to the tasks array
             state.tasks.append(newTask)
-        case let action as RemoveTask:
-            //
-            // REMOVING A TASK
-            //
             
-            // 1. get index of task given its id
-            guard let index = state.tasks.index(where: { $0.id == action.taskId }) else {
-                // if task with id is not found
-                // exist scope
-                break
-            }
-            
-            // 2. remove task
-            state.tasks.remove(at: index)
+//        case let action as RemoveTask:
+//            
+//             TODO: REMOVING A TASK
+//            
+//            
+//             1. get index of task given its id
+//            
+//             2. remove task
         default:
             break
         }

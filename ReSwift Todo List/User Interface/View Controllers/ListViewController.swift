@@ -126,13 +126,9 @@ extension ListViewController {
     override func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
         
         // 1. get task at index
-        let task = tasks[indexPath.row]
         
         let action = UITableViewRowAction(style: .normal, title: "✅") { _ in
             // 2. dispatch action to remove the task with the id
-            store.dispatch(
-                RemoveTask(taskId: task.id)
-            )
         }
         
         action.backgroundColor = .green
