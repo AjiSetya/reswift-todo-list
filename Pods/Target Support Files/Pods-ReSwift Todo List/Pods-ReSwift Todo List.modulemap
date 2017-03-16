@@ -1,0 +1,6 @@
+framework module Pods_ReSwift_Todo_List {
+  umbrella header "Pods-ReSwift Todo List-umbrella.h"
+
+  export *
+  module * { export * }
+}
