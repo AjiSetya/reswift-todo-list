@@ -11,8 +11,7 @@ import ReSwift
 let loggingMiddleware: Middleware = { (dispatch, getState) in
     return { (next) in
         return { (action) in
-            print("\n")
-            print(action)
+            print("\n\(action)")
             return next(action)
         }
     }

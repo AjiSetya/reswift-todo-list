@@ -17,7 +17,7 @@ final class ListViewController: UITableViewController {
     
     fileprivate var tasks: [Task] = [] {
         didSet {
-            // reload data whenever the tasks value is updated
+            // reload table view whenever the tasks value is updated
             tableView.reloadData()
         }
     }
