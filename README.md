@@ -4,7 +4,7 @@ A basic ReSwift sample demo app for the Jakarta iOS Meetup - March 2017 talk.
 ## Running the app 
 Run `pod install` and run the app as usual on Xcode.
 
-## Resourecs
+## Resources
 **Main repo:**
 - [github.com/ReSwift/ReSwift](github.com/ReSwift/ReSwift)
 
