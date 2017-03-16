@@ -9,7 +9,7 @@ To run the app, simply run `pod install` and run the app as usual on Xcode.
 - [github.com/ReSwift/ReSwift](github.com/ReSwift/ReSwift)
 
 **Benji's wisdom**
-- [Introducing ReSwift by Benjamin Encz](blog.benjamin-encz.de/post/introducing-reswift)
+- [Introducing ReSwift by Benjamin Encz](https://blog.benjamin-encz.de/post/introducing-reswift)
 - [Unidirectional Data Flow in Swift SLUG talk](https://realm.io/news/benji-encz-unidirectional-data-flow-swift)
 
 
